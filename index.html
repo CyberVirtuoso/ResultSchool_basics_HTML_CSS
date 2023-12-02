@@ -14,16 +14,19 @@
     <div class="container">
         <div class="info">
             <img class="avatar" src="img/MyPhoto.jpg" alt="Моё фото">
-            <h1>Михаил Есиков</h1>
-            <p>Я 3 года работаю IT специалистом в филиале <strong>ППК"Роскадастр" по Санкт-Петербургу</strong>.</p>
-            <p>Я люблю играть на гитаре, программировать и автоматизировать всё вокруг себя.</p>
-        
-            <h4>Мои социальные сети</h4>
-            <a target="_blank" href="https://vk.com/dedwolf">ВК</a>
-            |
-            <a target="_blank" href="https://t.me/DedmasterDeveloper">Телеграм</a>
-            |
-            <a href="#">Инстаграм</a>
+            
+            <div class="info-text">
+                <h1>Михаил Есиков</h1>
+                <p>Я 3 года работаю IT специалистом в филиале <strong>ППК"Роскадастр" по Санкт-Петербургу</strong>.</p>
+                <p>Я люблю играть на гитаре, программировать и автоматизировать всё вокруг себя.</p>
+            
+                <h4>Мои социальные сети</h4>
+                <a target="_blank" href="https://vk.com/dedwolf">ВК</a>
+                |
+                <a target="_blank" href="https://t.me/DedmasterDeveloper">Телеграм</a>
+                |
+                <a href="#">Инстаграм</a>
+            </div>
         </div>
 
         <div class="card bg-green">
@@ -64,19 +67,27 @@
         
 
         <div class="contact">
-            <h2>Связаться со мной</h2>
             <form action="/">
-                <label for="name">Ваше имя:</label>
-                <input type="text" id="name" placeholder="Введите ваше имя...">
-                <br>
-                <label for="email">Ваш Email:</label>
-                <input type="email" id="email" placeholder="Введите email...">
-                <br>
-                <label for="text">Ваше сообщение:</label>
-                <br>
-                <textarea id="text" cols="15" rows="5"></textarea>
-                <br>
-                <input type="submit" value="Связаться">
+                <h2>Связаться со мной</h2>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите ваше имя...">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Ваш Email:</label>
+                        <input type="email" id="email" placeholder="Введите email...">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="text">Ваше сообщение:</label>
+                    <textarea id="text" cols="15" rows="5"></textarea>
+                </div>
+                
+                <input class="btn" type="submit" value="Связаться">
             </form>
         </div>
 
